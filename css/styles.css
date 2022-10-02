@@ -1,58 +1,101 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-h2 {
-    font-weight: 500;
+.web {
+    font-weight: 700;
+    height: 31px;
+    font-size: 26px;
+    line-height: 1.17em;
+    color: #2196f3;
+}
+
+.cabecera {
+    weight: 500px;
+    font-size: 14px;
+    line-height: 1.17em;
 }
 
 .primerBoton {
     width: 73px;
     height: 38px;
-    background-color: #2196F3;
+    background-color: #2196f3;
     color: white;
 }
 
-button:hover {
-    background: #2196F3;
+.primerBoton:hover {
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+h2 {
+    font-weight: 500px;
+    height: 36px;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+h2:hover {
     cursor: pointer;
+    text-decoration: #2196f3 underline;
+}
+
+p:hover {
+    cursor: pointer;
+    text-decoration: #2196f3 underline;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 1.875em;
+    color: #757575;
+}
+
+button:hover {
+    border-style: solid;
+    border-color: purple;
+    cursor: pointer;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.625em;
 }
 
 button {
     width: 145px;
     height: 38px;
-    background-color: #F5F4FA;
+    background-color: #f5f4fa;
     border: none;
     border-radius: 5%;
 }
 
-ul {
-    list-style-type: none;
-    text-align: center
+footer {
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+    text-decoration: white;
 }
 
-li {
-    margin-right: 10px;
-    float: left;
-}
-
-.web {
-    font-weight: 700;
-    color: #2196F3;
+.important {
+    color: white !important;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 44px;
-    height: 44px;
-    text-align: center;
+    padding: 15px;
+    width: 14px;
+    height: 14px;
     text-decoration: none;
-    margin: 5px 2px;
+    text-align: center;
+    margin: 4px 2px;
 }
 
 .fa:hover {
-    background: #2196F3;
+    background: #2196f3;
     opacity: 0.7;
 }
 
